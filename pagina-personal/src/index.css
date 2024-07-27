@@ -113,11 +113,39 @@ picture {
   align-items: center;
 }
 
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container_user_register_form {
-  width: 15rem;
-  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
 }
+
+.input__data {
+  width: 20rem;
+  height: 2.5rem;
+  border: none;
+  border-bottom: .1rem solid #f9f9f9;
+  background-color: none;
+  box-sizing: border-box;
+  padding: .5rem;
+}
+
+.input_submit {
+  width: 20rem;
+  height: 2.5rem; 
+}
+
+.input_submit:hover {
+  width: 20rem;
+  height: 2.5rem;
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
